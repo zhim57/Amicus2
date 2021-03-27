@@ -68,6 +68,11 @@ function Nav(props) {
                             Logout
                     </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to="/SortTest" className="nav-link" onClick={event =>  handleNavCollpase()} >
+                            Sort- Test
+                    </Link>
+                    </li>
                 </ul>
             </div>
 

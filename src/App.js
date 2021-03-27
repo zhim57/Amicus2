@@ -11,6 +11,7 @@ import Logout from "./components/Logout"
 import PrivateRoute from "./components/PrivateRoute"
 import ForgotPassword from "./components/ForgotPassword"
 import UpdateProfile from "./components/UpdateProfile"
+import SortTest from "./components/SortTest"
 import Nav from "./components/Nav"
 
 function App() {
@@ -27,8 +28,10 @@ function App() {
             <Route path="/login" component={Login} />
             <Route path="/logout" component={Logout} />
             <Route path="/forgot-password" component={ForgotPassword} />
+            <Route path="/SortTest" component={SortTest} />
            
           </Switch>
+          
       </AuthProvider>
     </Router>
   )

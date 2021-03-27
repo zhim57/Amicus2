@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import SortTest from './components/SortTest';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App>
+      <SortTest/>
+
+    </App>
+    
+  
+
+
   </React.StrictMode>,
  document.getElementById('root'));
 

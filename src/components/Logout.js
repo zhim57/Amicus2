@@ -17,7 +17,7 @@ function Logout() {
        
         logoutHandle();
 
-    }, []);
+    }, );
     return (
         <Redirect to="/login" />
     );
